@@ -12,12 +12,20 @@ const projects = [
         github: "https://github.com/davidchrsmith/DroneDeliverySimulation",
     },
     {
+        title: "Goods4Goods",
+        description: "In progress: A web application for connecting people to exchange goods and services in a local community.",
+        image: "/projects/G4GItems.png",
+        tags: ["React Native", "Expo", "Django Rest Framework", "Python", "TypeScript", "PostgreSQL"],
+        link: "https://github.com/davidchrsmith/Goods4Goods",
+        github: "https://github.com/davidchrsmith/Goods4Goods",
+    },
+    {
         title: "Invasive Species Management Cost-Benefit Analysis",
         description: "Economic analysis of invasive species management through EDRR in the Twin-Cities metropolitan area.",
         image: "/projects/CBATitle.png",
         tags: ["Cost-Benefit Analysis", "Public Policy", "NPV + IRR Calculation", "RStudio"],
-        link: "https://github.com/davidchrsmith/InvasiveSpeciesCBA.git",
-        github: "https://github.com/davidchrsmith/InvasiveSpeciesCBA.git",
+        link: "https://github.com/davidchrsmith/InvasiveSpeciesCBA",
+        github: "https://github.com/davidchrsmith/InvasiveSpeciesCBA",
     },
 ];
 
