@@ -71,7 +71,7 @@ export const Projects = () => {
                 {projects.map((project, idx) => (
                     <div key={idx} className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1" style={{animationDelay: `${(idx + 1) * 100}ms`}}>
                         <div className="relative overflow-hidden aspect-video">
-                            <img src={project.image} className="w-full h-full"></img>
+                            <img src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`} className="w-full h-full"></img>
                             <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60" />
                             <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all" target="_blank" rel="noopener noreferrer">

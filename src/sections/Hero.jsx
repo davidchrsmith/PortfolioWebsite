@@ -39,7 +39,7 @@ export const Hero = () => {
       <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0">
-            <img src="/HeroBG2.jpg" alt="Hero image" className="w-full h-full object-cover opacity-40"/>
+            <img src={`${import.meta.env.BASE_URL}HeroBG2.jpg`} alt="Hero image" className="w-full h-full object-cover opacity-40"/>
             <div className="absolute inset-0 bg-gradient-to-b from-background/100 via-background/30 to-background/0"></div>
         </div>
 

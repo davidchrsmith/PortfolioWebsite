@@ -36,7 +36,7 @@ export const Experience = () => {
             {/* HaFSBX */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <div>
-                <img src="/HaFSBX_Logo_WHITE%201.png" alt="HaFSBX logo" className="py-10 h-auto max-w-sm animate-fade-in animation-delay-200"></img>
+                <img src={`${import.meta.env.BASE_URL}HaFSBX_Logo_WHITE%201.png`} alt="HaFSBX logo" className="py-10 h-auto max-w-sm animate-fade-in animation-delay-200"></img>
               </div>
               <div className="animate-fade-in animation-delay-300">
                 <h2 className="py-4 text-4xl md:text-5xl font-serif italic font-bold text-white ">
@@ -63,7 +63,7 @@ export const Experience = () => {
             <div className="flex flex-col md:flex-row-reverse items-center gap-8">
               <div>
                 <div className="py-10 h-auto max-w-sm animate-fade-in animation-delay-400">
-                  <img src="/lavner-education-squareLogo.jpg" alt="Lavner Education logo" className="rounded-3xl glow-lavner-border"></img>
+                  <img src={`${import.meta.env.BASE_URL}lavner-education-squareLogo.jpg`} alt="Lavner Education logo" className="rounded-3xl glow-lavner-border"></img>
                 </div>
               </div>
               <div className="animate-fade-in animation-delay-500">
@@ -91,7 +91,7 @@ export const Experience = () => {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div>
                 <div className="py-10 h-auto max-w-sm animate-fade-in animation-delay-400">
-                  <img src="/UofM.png" alt="University of Minnesota logo"></img>
+                  <img src={`${import.meta.env.BASE_URL}UofM.png`} alt="University of Minnesota logo"></img>
                 </div>
               </div>
               <div className="animate-fade-in animation-delay-500">
