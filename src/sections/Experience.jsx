@@ -44,16 +44,16 @@ export const Experience = () => {
                 </h2>
                 <div className="glass rounded-2xl p-4 glow-haf-border">
                   <p className="text-muted-foreground">
-                    - Full stack web app development with React, Next.js, Three.js, CSS, PostgreSQL, and Django Rest Framework (DRF)
+                    - Developed full-stack web applications using React, Next.js, Django REST Framework, CSS, and Three.js, implementing new features and improving user experience.
                   </p>
                   <p className="text-muted-foreground">
-                    - Full ROS2 lifecycle development and deployment in Python, C++, and XML
+                    - Designed, implemented, tested, and deployed ROS2 robotic applications using Python, C++, and XML launch/configuration files
                   </p>
                   <p className="text-muted-foreground">
-                    - Backend API and data pipeline development, management, and maintenance with Bruno and OpenAPI
+                    - Developed and tested REST APIs and backend data pipelines using OpenAPI and Bruno for API design, documentation, and validation
                   </p>
                   <p className="text-muted-foreground">
-                    - NVIDIA Isaac Sim, Mission Control and Mission Dispatch proficiency
+                    - Built and validated robotic workflows using NVIDIA Isaac sim, mission control, and mission dispatch for simulation and deployment
                   </p>
                 </div>
               </div>
