@@ -92,8 +92,11 @@ export const Hero = () => {
                       <Button size="lg" onClick={scrollToContact}>
                         Contact Me <ArrowRight className="w-5 h-5" />
                       </Button>
-                      <AnimatedBorderButton href="/DavidSmithResume.pdf" download="DavidSmithResume.pdf">
-                        Download CV <Download className="w-5 h-5" />
+                      <AnimatedBorderButton
+                        href={`${import.meta.env.BASE_URL}DavidSmithResume.pdf`}
+                        download
+                      >
+                        Download CV
                       </AnimatedBorderButton>
                     </div>
 
