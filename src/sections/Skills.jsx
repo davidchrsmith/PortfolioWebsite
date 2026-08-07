@@ -69,7 +69,7 @@ export const Skills = () => {
                                     <li>LiDAR</li>
                                     <li>Sensor Integration</li>
                                     <li>Fleet Orchestration</li>
-                                    <li>Rviz</li>
+                                    <li>RViz</li>
                                     <li>Foxglove</li>
                                     <li>Isaac Mission Control</li>
                                     <li>Isaac Mission Dispatch</li>

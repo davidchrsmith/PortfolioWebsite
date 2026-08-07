@@ -44,16 +44,16 @@ export const Experience = () => {
                 </h2>
                 <div className="glass rounded-2xl p-4 glow-haf-border">
                   <p className="text-muted-foreground">
-                    - Developed full-stack web applications using React, Next.js, Django REST Framework, CSS, and Three.js, implementing new features and improving user experience.
+                    - Engineered full-stack web applications using React, Next.js, Django REST Framework, PostgreSQL, and Three.js to deliver new features and improve application usability.
                   </p>
                   <p className="text-muted-foreground">
-                    - Designed, implemented, tested, and deployed ROS2 robotic applications using Python, C++, and XML launch/configuration files
+                    - Designed, implemented, and deployed ROS2 robotic applications using Python, C++, and XML launch/configuration files.
                   </p>
                   <p className="text-muted-foreground">
-                    - Developed and tested REST APIs and backend data pipelines using OpenAPI and Bruno for API design, documentation, and validation
+                    - Designed, implemented, and validated REST APIs and backend data pipelines using OpenAPI and Bruno for API design, documentation, and validation.
                   </p>
                   <p className="text-muted-foreground">
-                    - Built and validated robotic workflows using NVIDIA Isaac sim, mission control, and mission dispatch for simulation and deployment
+                    - Developed and validated robotic workflows in NVIDIA Isaac Sim before deployment through Mission Control and Mission Dispatch.
                   </p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export const Experience = () => {
                 </h2>
                 <div className="glass rounded-2xl p-4 glow-lavner-border">
                   <p className="text-muted-foreground">
-                    - Taught and mentored students (ages 6-14) in Python, C++, robotics, and AI with Ethics, fostering problem-solving and teamwork skills.
+                    - Taught and mentored students (ages 6–14) in Python, C++, robotics, and AI Ethics, fostering problem-solving and teamwork skills.
                   </p>
                   <p className="text-muted-foreground">
                     - Collaborated with instructors to refine curriculum, adding interactive coding challenges and hands-on projects that improved student engagement and project completion rates.
@@ -87,7 +87,7 @@ export const Experience = () => {
               </div>
             </div>
 
-            {/* Lavner */}
+            {/* University of Minnesota */}
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div>
                 <div className="py-10 h-auto max-w-sm animate-fade-in animation-delay-400">
@@ -106,7 +106,7 @@ export const Experience = () => {
                     - Coursework includes Advanced Algorithms and Data Structures, Machine Learning, Development of Secure Software Systems, Environmental Economics, and Industrial Organization and Antitrust Policy. This diverse curriculum equips me with a strong foundation in both technical and analytical skills, preparing me for a career at the intersection of technology and economics.
                   </p>
                   <p className="text-muted-foreground">
-                    - Was awarded the College of Science and Engineering Dean's List for academic excellence, recognizing my dedication to maintaining a high GPA while actively engaging in research and extracurricular activities.
+                    - Was awarded the College of Science and Engineering Dean's List for academic excellence 3 times, recognizing my dedication to maintaining a high GPA while actively engaging in research and extracurricular activities.
                   </p>
                 </div>
               </div>
