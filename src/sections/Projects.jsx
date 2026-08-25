@@ -8,15 +8,20 @@ const projects = [
         description: "Simulation of a real-time drone package delivery system utilizing pathlanning algorithms.",
         image: "/projects/DroneSim.png",
         tags: ["C++", "Pathplanning", "Algorithm Development", "Multithreading"],
-        link: "https://github.com/davidchrsmith/DroneDeliverySimulation",
         github: "https://github.com/davidchrsmith/DroneDeliverySimulation",
+    },
+    {
+        title: "Personal Homelab",
+        description: "A Raspberry Pi-based personal homelab providing network-wide DNS filtering and secure remote access.",
+        image: "/projects/pihole_screenshot.png",
+        tags: ["Raspberry Pi", "TailScale", "Docker", "Networking", "DNS Filtering", "Remote Access"],
+        github: "https://github.com/davidchrsmith/personal-homelab",
     },
     {
         title: "Goods4Goods",
         description: "In progress: A web application for connecting people to exchange goods and services in a local community.",
         image: "/projects/G4GItems.png",
         tags: ["React Native", "Expo", "Django Rest Framework", "Python", "TypeScript", "PostgreSQL"],
-        link: "https://github.com/davidchrsmith/Goods4Goods",
         github: "https://github.com/davidchrsmith/Goods4Goods",
     },
     {
@@ -24,7 +29,6 @@ const projects = [
         description: "Economic analysis of invasive species management through EDRR in the Twin-Cities metropolitan area.",
         image: "/projects/CBATitle.png",
         tags: ["Cost-Benefit Analysis", "Public Policy", "NPV + IRR Calculation", "RStudio"],
-        link: "https://github.com/davidchrsmith/InvasiveSpeciesCBA",
         github: "https://github.com/davidchrsmith/InvasiveSpeciesCBA",
     },
 ];
@@ -74,9 +78,11 @@ export const Projects = () => {
                             <img src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`} className="w-full h-full"></img>
                             <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60" />
                             <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all" target="_blank" rel="noopener noreferrer">
-                                    <ArrowUpRight className="w-5 h-5"/>
-                                </a>
+                                {project.link && (
+                                    <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all" target="_blank" rel="noopener noreferrer">
+                                        <ArrowUpRight className="w-5 h-5"/>
+                                    </a>
+                                )}
                                 <a href={project.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all" target="_blank" rel="noopener noreferrer">
                                     <GitHubIcon className="w-5 h-5"/>
                                 </a>
