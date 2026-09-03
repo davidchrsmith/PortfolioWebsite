@@ -11,8 +11,8 @@ const projects = [
         github: "https://github.com/davidchrsmith/DroneDeliverySimulation",
     },
     {
-        title: "Personal Homelab",
-        description: "A Raspberry Pi-based personal homelab providing network-wide DNS filtering and secure remote access.",
+        title: "Self-Hosted Homelab",
+        description: "A Raspberry Pi-based personal homelab providing network-wide DNS filtering through Pi-hole, an ad-free youtube front-end using Invidious, and secure remote access through TailScale.",
         image: "/projects/pihole_screenshot.png",
         tags: ["Raspberry Pi", "TailScale", "Docker", "Networking", "DNS Filtering", "Remote Access"],
         github: "https://github.com/davidchrsmith/personal-homelab",
